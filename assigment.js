@@ -11,8 +11,11 @@ function feetToMile(mile){
 
 //woodCalculator
 
-function woodCalculator(){
-    
+function woodCalculator(wood, cft){
+    var woodCount = wood * 5
+    var cftCount = cft * 12
+    var totalWood = woodCount + cftCount;
+    return totalWood;
 }
 
 
